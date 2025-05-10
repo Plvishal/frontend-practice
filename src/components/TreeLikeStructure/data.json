@@ -1,0 +1,63 @@
+[
+  {
+    "name": "public",
+    "id": 1,
+    "isFolder": true,
+    "children": [
+      {
+        "name": "index.html",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "isFolder": true,
+    "id": 2,
+    "children": [
+      {
+        "name": "components",
+        "id": 4,
+        "isFolder": true,
+        "children": [
+          {
+            "name": "Button",
+            "isFolder": true,
+            "children": [{ "name": "ActionButton", "isFolder": false }]
+          },
+          {
+            "name": "Input",
+            "isFolder": true,
+            "children": [{ "name": "Input.jsx", "isFolder": false }]
+          },
+          { "name": "Tree.jsx", "isFolder": false }
+        ]
+      },
+      {
+        "name": "App.js",
+        "id": 5,
+        "isFolder": false
+      },
+      {
+        "name": "data.json",
+        "id": 6,
+        "isFolder": false
+      },
+      {
+        "name": "index.js",
+        "id": 7,
+        "isFolder": false
+      },
+      {
+        "name": "style.css",
+        "id": 8,
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "name": "package.json",
+    "id": 3,
+    "isFolder": false
+  }
+]

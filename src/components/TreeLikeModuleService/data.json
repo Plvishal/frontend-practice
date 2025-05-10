@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Authentication",
+    "isFolder": true,
+    "children": [
+      { "name": "Login", "isFolder": false },
+      { "name": "Register", "isFolder": false }
+    ]
+  },
+  {
+    "name": "Dashboard",
+    "isFolder": true,
+    "children": [
+      { "name": "Overview", "isFolder": false },
+      { "name": "Analytics", "isFolder": false }
+    ]
+  },
+  {
+    "name": "GlobalSettings.js",
+    "isFolder": false
+  }
+]
