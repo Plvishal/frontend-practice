@@ -1,22 +1,58 @@
 [
   {
-    "name": "Authentication",
+    "name": "Basic",
     "isFolder": true,
     "children": [
-      { "name": "Login", "isFolder": false },
-      { "name": "Register", "isFolder": false }
+      { "name": "Location", "isFolder": false },
+      { "name": "Branch", "isFolder": false },
+      { "name": "Customer", "isFolder": false },
+      { "name": "Vendor", "isFolder": false }
     ]
   },
   {
-    "name": "Dashboard",
+    "name": "Operation",
     "isFolder": true,
     "children": [
-      { "name": "Overview", "isFolder": false },
-      { "name": "Analytics", "isFolder": false }
+      { "name": "Driver Attendence", "isFolder": false },
+      { "name": "Periodic Attencence", "isFolder": false },
+      {
+        "name": "Vehicle",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "Type",
+            "isFolder": false
+          },
+          {
+            "name": "class",
+            "isFolder": false
+          }
+        ]
+      },
+      {
+        "name": "Budgeting",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "Toll",
+            "isFolder": false
+          },
+          {
+            "name": "Border",
+            "isFolder": true,
+            "children": [
+              {
+                "name": "Mumbai",
+                "isFolder": false
+              },
+              {
+                "name": "Gurugram",
+                "isFolder": false
+              }
+            ]
+          }
+        ]
+      }
     ]
-  },
-  {
-    "name": "GlobalSettings.js",
-    "isFolder": false
   }
 ]
